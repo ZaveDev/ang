@@ -5,7 +5,7 @@ export default function index() {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <h1>A&G</h1>
+        <h1>CSW</h1>
       </div>
       <div className="navbar-buttons-container">
         <div className="navbar-buttons">

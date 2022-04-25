@@ -5,7 +5,7 @@ export default function index() {
     <div className="home">
       <div className="home-header">
         <div className="home-header-title">
-          <h1>A & G Welding and Prefab</h1>
+          <h1>Crown Steel Works</h1>
         </div>
       </div>
       <div className="home-body">
