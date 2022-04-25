@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  background-color: rgb(12, 70, 20);
+  height: clamp(3rem, 10vh, 3rem);
+
+  align-items: center;
+}
+
+.navbar-logo {
+  padding-left: 2%;
+  width: clamp(150px, 45%, 1000px);
+  color: white;
+}
+
+.navbar-buttons-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  align-items: center;
+}
+.navbar-buttons {
+  height: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+.navbar-buttons:hover {
+  background-color: rgb(24, 18, 105);
+  transition: all 0.3s ease-in-out;
+}
+.navbar-buttons > a {
+  color: white;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 2%;
+}
