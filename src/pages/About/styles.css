@@ -1,0 +1,18 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.about-container {
+  background: grey;
+  width: 80%;
+  height: 80%;
+  border-radius: 4px;
+  padding: 2%;
+}
+.about-container-header {
+  text-align: center;
+}
+.about-container-body {
+}

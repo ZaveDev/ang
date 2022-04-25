@@ -1,0 +1,43 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-header {
+  background-image: url(https://www.welded-sheetmetal.com/wp-content/uploads/Welding-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000000;
+  height: clamp(500px, 50vh, 2000px);
+  background-position: center; /* Center the image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  width: 100%;
+}
+.home-header-title {
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.645);
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.home-body {
+  width: 80%;
+  color: white;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+}
+hr {
+  margin: 0;
+  padding: 0;
+  border: 1px solid white;
+}
